@@ -12,7 +12,7 @@ var myHeading = document.querySelector('h3');
 function setUserName() {
   var myName = prompt('введите своё имяо плииз');
   localStorage.setItem('name', myName);
-  myHeading.textContent = 'Mozilla is cool, ' + myName;
+  myHeading.textContent = 'Ти дебил, ' + myName;
 }
 if(!localStorage.getItem('name')) {
   setUserName();
